@@ -4,9 +4,9 @@ model=genai.GenerativeModel("gemini-2.5-flash")
 st.markdown(
     """
     <style>
-    /* Light blue background */
+    /* Soft sage green background */
     .stApp, .reportview-container, body {
-        background-color: #add8e6;
+        background-color: #b8d8be;
     }
     </style>
     """,
