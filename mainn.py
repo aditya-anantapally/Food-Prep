@@ -43,7 +43,7 @@ Budget: {Budget}
 Physical Activity: {Physical_Activity}
 Other notes: {Other_Notes}
 Output Format:
-Detailed Recipes: (give 5 detailed recipes based on the type of food)
+Detailed Recipes: (give 5 extremely detailed recipes based on the type of food with step by step directions explaining everything with exact measurements and amounts)
 Weekly Meal Plan: (provide a day-by-day and meal by meal diet plan based on dietary preferences)   
 """
 
