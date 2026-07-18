@@ -23,7 +23,7 @@ Height=st.number_input("Enter height (in inches): ", min_value=1, max_value=120,
 Dietary_Restrictions=st.text_area("Enter dietary restrictions: ")
 Food_Type=st.text_area("Enter the type of food you want to prepare: ")
 Calorie_Count=st.number_input("Enter how many calories you hope to consume in your meal: ")
-Budget=st.number_input("Enter budget in dollars: ", min_value=5.00, max_value=100.00, step=1)
+Budget=st.number_input("Enter budget in dollars: ", min_value=5.00, max_value=100.00, step=0.25)
 Physical_Activity=st.text_area("Enter any sports, excercise, or physical activity you do: ")
 Other_Notes=st.text_area("Enter other notes: ")
 prompt=f"""You are an experienced allergist and food preperation specialist.Dont add unnessecary text about yourself.
