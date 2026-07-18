@@ -23,13 +23,13 @@ Height=st.number_input("Enter height (in inches): ", min_value=1, max_value=120,
 Dietary_Restrictions=st.text_area("Enter dietary restrictions: ")
 Food_Type=st.text_area("Enter the type of food you want to prepare: ")
 Calorie_Count=st.text_area("Enter how many calories you hope to consume in your meal: ")
-Budget=st.number_input("Enter budget in dollars: ", min_value=5.00, max_value=100.00, step=0.25)
+Budget=st.number_input("Enter budget in dollars: ", min_value=5.00, max_value=500.00, step=0.25)
 Physical_Activity=st.text_area("Enter any sports, excercise, or physical activity you do: ")
 Other_Notes=st.text_area("Enter other notes: ")
 prompt=f"""You are an experienced allergist and food preperation specialist.Dont add unnessecary text about yourself.
 Analyze the following profile and create a meal prep and diet plan .
 Use evidence-based reasoning related to biomechanics, cooking, allergies, tastes, and budgeting.
-Then, gived detailed recipes that they can make and give 3–5 recommendations of meals to prepare based on what type of foods they are craving of different amounts of budgets. Giving a diet plan for each meal of each day of the week based on the dietary restrictions, allergies, and other notes. Make sure to make everything fit inside the budget as best as possible and give the prices of each item and the total meal based on US food pricing.      
+Then, gived detailed recipes that they can make and give 3–5 recommendations of meals to prepare based on what they are craving of different amounts of budgets. Giving a diet plan for each meal of each day of the week based on the dietary restrictions, allergies, and other notes. Make sure to make everything fit inside the budget as best as possible and give the prices of each item and the total meal based on US food pricing.      
 Data:     
 Name: {name}    
 Age: {Age}    
